@@ -5,20 +5,20 @@ import java.io.*;
 import java.util.*;
 
 public class MovieAnalyzer {
-    String pa;
-    ArrayList<String> records = new ArrayList<>();
-    ArrayList<String> Series_Title = new ArrayList<>();
-    ArrayList<Integer> Released_Year = new ArrayList<>();
-    ArrayList<String> Certificate = new ArrayList<>();
-    ArrayList<Integer> Runtime = new ArrayList<>();
-    ArrayList<String> Genre = new ArrayList<>();
-    ArrayList<Float> IMDB_Rating = new ArrayList<>();
-    ArrayList<String> Overview = new ArrayList<>();
-    ArrayList<Integer> Meta_score = new ArrayList<>();
-    ArrayList<String> Director = new ArrayList<>();
-    ArrayList<String> Star = new ArrayList<>();
-    ArrayList<Integer> Noofvotes = new ArrayList<>();
-    ArrayList<String> Gross = new ArrayList<>();
+  String pa;
+  ArrayList<String> records = new ArrayList<>();
+  ArrayList<String> Series_Title = new ArrayList<>();
+  ArrayList<Integer> Released_Year = new ArrayList<>();
+  ArrayList<String> Certificate = new ArrayList<>();
+  ArrayList<Integer> Runtime = new ArrayList<>();
+  ArrayList<String> Genre = new ArrayList<>();
+  ArrayList<Float> IMDB_Rating = new ArrayList<>();
+  ArrayList<String> Overview = new ArrayList<>();
+  ArrayList<Integer> Meta_score = new ArrayList<>();
+  ArrayList<String> Director = new ArrayList<>();
+  ArrayList<String> Star = new ArrayList<>();
+  ArrayList<Integer> Noofvotes = new ArrayList<>();
+  ArrayList<String> Gross = new ArrayList<>();
 
     public void setPa(String pa) {
         this.pa = pa;
